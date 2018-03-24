@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#F5F5DC">
+
+<h1>
+<center>Testing Purpose Only</center>
+</h1>
+
+<p>
+<center>
+<font size="5" color="red">
+Used for Automation of Selenium
+</font>
+</center>
+</p>
+
+<form action="demo_form.asp" method="get">
+<fieldset>
+<legend>Text Box</legend>
+First Name : <input type="text" name="FirstName" value="">
+<br>
+<br>
+Last Name : <input type="text" name="LastName" value="">
+<br>
+<br>
+<button type="reset" value="Reset">Reset</button>
+</fieldset>
+</form>
+
+<br>
+
+<fieldset>
+<legend>Check Box </legend>
+<form action="demo_form.asp" method="get">
+<input type="checkbox" name="vehicle" value="Bike"> Selenium IDE<br>
+<input type="checkbox" name="vehicle" value="Car">  Selenium RC<br>
+<input type="checkbox" name="vehicle" value="Bike">  Selenium Web Driver<br>
+<input type="checkbox" name="vehicle" value="Car"> Selenium Grid<br>
+<input type="checkbox" name="vehicle" value="Car"> Selendroid<br>
+</form>
+</fieldset>
+
+
+<br>
+
+
+<fieldset>
+<legend>Drop Down Box </legend>
+<form action="demo_form.asp" method="get">
+<label>Drop Down and Text Box : </label>
+<input list="Selenium " name="Selenium ">
+<datalist id="Selenium ">
+  <option value=" Selenium IDE">
+  <option value="Selenium RC">
+  <option value="Selenium Webdriver">
+  <option value="Selenium Grid">
+  <option value="Selendroid">
+</datalist>
+</form>
+<br>
+
+
+<form action="demo_form.asp" method="get">
+<label>Drop Down Box : </label>
+<select id = "myList">
+<option value = "1">Selenium IDE</option>
+<option value = "2">Selenium RC</option>
+<option value = "3">Selenium Webdriver</option>
+<option value = "4">Selenium Grid</option>
+<option value = "4">Selendroid</option>
+</select>
+</form>
+</fieldset>
+
+<br>
+
+
+<fieldset>
+<legend>Radio Box </legend>
+<form action="demo_form.asp" method="get">
+<label>Radio Box : </label>
+<input type="radio" name="sex" value="male">Male
+<input type="radio" name="sex" value="female">Female
+</form>
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Button </legend>
+<button onclick="myFunction()">Click me</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+document.getElementById("demo").innerHTML = "Button Functionality is Working Correctly";
+}
+</script>
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Upload </legend>
+<form action="demo_form.asp">
+Select a file: <input type="file" name="img"
+</form>
+</fieldset>
+
+<footer>
+<p>Created By: Kiran Polapally </p>
+</footer>
+
+
+
+
+
+
+</body>
+</html>
